@@ -5,12 +5,12 @@ import java.util.List;
 
 public class Author {
     private String id;
-    private String firsName;
+    private String firstName;
     private String lastName;
 
-    public Author(String id, String firsName, String lastName) {
+    public Author(String id, String firstName, String lastName) {
         this.id = id;
-        this.firsName = firsName;
+        this.firstName = firstName;
         this.lastName = lastName;
     }
 
